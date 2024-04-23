@@ -1,4 +1,4 @@
-#<p align="center"> MyVimConfigs</p>
+# <p align="center"> MyVimConfigs</p>
 
 <span>call plug#begin()<br>
 "PlUGINS-HERE""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""<br>
