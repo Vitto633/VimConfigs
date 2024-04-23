@@ -1,6 +1,6 @@
 # VimConfigs
 
-call plug#begin()<br>
+<span>call plug#begin()<br>
 "PlUGINS-HERE""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""<br>
 Plug 'datsfilipe/min-theme.nvim' <br>
 Plug 'sainnhe/sonokai'<br>
@@ -68,4 +68,4 @@ let g:airline_powerline_fonts = 1<br>
 <br>
 <br>
 "NerdTree""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""<br>
-nnoremap <C-a> :NERDTreeToggle<CR><br>
+nnoremap <C-a> :NERDTreeToggle<CR><br></span>
