@@ -1,7 +1,7 @@
 # VimConfigs
 
-call plug#begin()
-"PlUGINS-HERE"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""<br>
+call plug#begin()<br>
+"PlUGINS-HERE""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""<br>
 Plug 'datsfilipe/min-theme.nvim' <br>
 Plug 'sainnhe/sonokai'<br>
 Plug 'tjdevries/colorbuddy.nvim'<br>
@@ -15,7 +15,7 @@ call plug#end()<br>
 <br>
 <br>
 <br>
-"GLOBAL-CONFIGURATIONS-OF-MY-NEOVIM"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""<br>
+"GLOBAL-CONFIGURATIONS-OF-MY-NEOVIM"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""<br>
 set nu                  "faz com que apareçam numeros do lado<br>
 set expandtab           "faz com que o neovim insira espaços em vez de uma tabulação literal<br>
 set smarttab            "ajusta o tipo de identação do tab<br>
@@ -39,11 +39,11 @@ filetype indent on      "habilita a funcionalidade de recuo automatico<br>
 <br>
 <br>
 <br>
-"REMAPS"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""<br>
+"REMAPS"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""<br>
 <br>
 <br>
 <br>
-"THEME""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""<br>
+"THEME""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""<br>
 if exists('+termguicolors')<br>
   let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"<br>
   let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"<br>
@@ -60,7 +60,7 @@ endif<br>
 <br>
 <br>
 <br>
-"AirLine"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""<br>
+"AirLine"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""<br>
 let g:airline_theme = 'sonokai'<br>
 let g:airline#extensions#tabline#enabled = 1<br>
 let g:airline_powerline_fonts = 1<br>
